@@ -25,7 +25,6 @@ export async function loader({ params }: Route.LoaderArgs) {
 
 export default function Home({ loaderData }: Route.ComponentProps) {
 	const { articles } = loaderData;
-	console.log(articles);
 	return (
 		<div>
 			<div className="flex sm:ml-64">
